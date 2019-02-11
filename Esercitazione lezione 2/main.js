@@ -32,8 +32,84 @@ if(isThatNumberEqualToTen){
 
 }
 
+// IF_ ELSE
+function binaryCheck(){
+    var myNumber = readNumber();
+    var isThatNumberEqualToTen = isEqualeToTen();
+    if(isThatNumberEqualToTen){
+        printMessage('si, il numero è proprio uguale a 10.')
+    } else{
+        printMessage('no, non è 10')
+    }
+}
+
+
+alert("simple check");
 simpleCheck();
 
+
+
+
+// 2, 5, 7, 13 --> primo
+// 10 --> base
+// 8, 64 --> octal
+
+//Modo complicato e poco ordinato
+
+
+function switchPie(myNumber){
+    var returnedMessage = '';
+    switch(myNumber){
+        case 2:
+        case 5:
+        case 7:
+        case 13:
+            returnedMessage = 'primo';
+            break;
+        case 10:
+            returnedMessage = 'base';
+            break;
+        case 8:
+        case 64:
+            returnedMessage = 'octal';
+            break;
+        } return returnedMessage
+    }
+
+function callSwitch(){
+    var aNumber = readNumber();
+    var message = switchPie(aNumber);
+    printMessage(message);
+}
+
+
+
+//pseudo codice per calcolatrice
+
+// mostra il menu in un alert
+
+// leggi l'operazione da effettuare
+
+// leggi gli operandi
+
+// esegui lo switch per l'operazione da effettuare (e salva il risultato)
+
+// scrivi il risultato
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//versione senza funzioni
 /*
 const COMPARABLE_NUMBER = 10;
 var readedNumber = prompt('insert a number:');
