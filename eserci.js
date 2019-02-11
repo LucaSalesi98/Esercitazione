@@ -1,6 +1,6 @@
 //Letto un numero, far stampare un messaggio in caso il numero sia uguale a 10.
 
-
+function readNumber(){
 var myNumber = prompt('write a number');
 
 myNumber =parseInt(myNumber);
@@ -11,9 +11,11 @@ if(myNumber == 10) {
     alert('given number is not 10');
       };
 
+    }
 
 //Letti due numeri, far stampare un messaggio in caso siano uguali tra di loro.
 
+function readTwoNumbers() {
 var firstNumber = prompt ('write the first number');
 var secondNumber = prompt ('write the second number');
 
@@ -25,9 +27,10 @@ if(firstNumber == secondNumber){
       } else {
     alert('you wrote two different numbers')
     };
-
+  }
 // Lette due stringhe, far stampare un messaggio in caso risultino uguali tra di loro e un messaggio alternativo in caso contrario.
 
+function readStrings() {
 var firstString = prompt ('write something');
 var secondString = prompt ('write the same thing');
 
@@ -36,4 +39,4 @@ if (firstString == secondString){
       } else{
     alert('i said the same thing! you wrote two different things :(')
       }
-
+    }
