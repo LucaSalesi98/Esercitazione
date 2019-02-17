@@ -17,19 +17,43 @@ var firstNumber = prompt(' insert first number ');
 firstNumber = parseInt(firstNumber);
 
 var secondNumber = prompt(' insert second number ');
+secondNumber = parseInt(secondNumber);
 
-switch(math) {
-    case "somma": aCaso();
-    break;
-    case 20: console.log('test');
-    break;
+function somma(){
+    var risultato = firstNumber + secondNumber;
+    alert(risultato);
 }
 
-function aCaso(){
-    console.log('Successo!');
+function sottrazione(){
+    var risultato = firstNumber - secondNumber;
+    alert(risultato);
 }
 
+function divisione(){
+    var risultato = firstNumber / secondNumber;
+    alert(risultato);
+}
 
+function moltiplicazione(){
+    var risultato = firstNumber * secondNumber;
+    alert(risultato);
+}
+
+function doMath(){
+    switch(math) {
+        case "somma": somma();
+            break;
+        case "sottrazione": sottrazione();
+            break;
+        case "divisione": divisione();
+            break;
+        case "moltiplicazione": moltiplicazione();
+            break;
+    }
+
+}
+
+doMath();
 
 
 
