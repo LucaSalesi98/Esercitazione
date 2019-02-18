@@ -8,16 +8,16 @@
 // esegui lo switch per l'operazione da effettuare (e salva il risultato)
 
 // scrivi il risultato
-
+function Calculator(){
 alert('Select the mathematical operation you want by writing it');
 
 var math = prompt('somma-sottrazione-divisione-moltiplicazione');
 
 var firstNumber = prompt(' insert first number ');
-firstNumber = parseInt(firstNumber);
+    firstNumber = parseInt(firstNumber);
 
 var secondNumber = prompt(' insert second number ');
-secondNumber = parseInt(secondNumber);
+    secondNumber = parseInt(secondNumber);
 
 function somma(){
     var risultato = firstNumber + secondNumber;
@@ -54,7 +54,7 @@ function doMath(){
 }
 
 doMath();
-
+}
 
 
 
