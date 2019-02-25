@@ -4,16 +4,52 @@
 <head>
     <title>Calculator.js</title>
     <style>
+
             h1{
                 font-size: 50px;
             }
             button{
-                margin: 10%;
+                margin: 20px;
+                height: 70px;
+                width: 70px;
+            }
+
+            .container{
+                width:max-content;
+                background-color: lightgoldenrodyellow;
+                border: 2px solid;
+                margin: 0 auto;
+                
             }
     </style>
 </head>
 <body>
-    <button onclick="Calculator()">start Calculator</button>
+
+   <div class="container">
+       <textarea></textarea>
+       <br>
+        <button onclick="B1()">1</button>
+        <button onclick="B2()">2</button>
+        <button onclick="B3()">3</button> 
+        <button>+</button>
+        <button>*</button>
+        <br>
+
+        <button onclick="B4()">4</button>
+        <button onclick="B5()">5</button>
+        <button onclick="B6()">6</button>  
+        <button>-</button>
+        <button>/</button>
+        <br>
+
+        <button onclick="B7()">7</button>
+        <button onclick="B8()">8</button>
+        <button onclick="B9()">9</button>
+
+    </div>
+
+
+        <button onclick="Calculator()">start Calculator</button>
     <script type="text/javascript" src="main.js"></script>
 
 </body>

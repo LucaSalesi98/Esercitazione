@@ -8,6 +8,7 @@
 // esegui lo switch per l'operazione da effettuare (e salva il risultato)
 
 // scrivi il risultato
+/*
 function Calculator(){
 alert('Select the mathematical operation you want by writing it');
 
@@ -55,7 +56,44 @@ function doMath(){
 
 doMath();
 }
+*/
 
+var FirstNumber = null;
+
+var secondNumber = null;
+
+var math = null;
+
+var inputNumber = 0;
+
+
+function B1(inputNumber){
+  console.log('1');
+}   
+function B2(){
+    console.log('2');                   
+}     
+function B3(){
+    console.log('3');                   
+}
+function B4(){
+    console.log('4');                   
+}
+function B5(){
+    console.log('5');                   
+}
+function B6(){
+    console.log('6');                   
+}
+function B7(){
+    console.log('7');                   
+}
+function B8(){
+    console.log('8');                   
+}
+function B9(){
+    console.log('9');                   
+}
 
 
 
