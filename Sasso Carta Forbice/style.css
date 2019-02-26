@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(115, 255, 255);
+}
+
+.button{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    float: left;
+    text-align: center;
+    margin: 70px    ;
+}
+
+.rock{
+    background-image: url("rock.jpg");
+    background-size: cover;
+}
+.paper{
+    background-image: url("paper.jpg");
+    background-size: cover;
+}
+.scissors{
+    background-image: url("scissor.jpg");
+    background-size: cover;
+}
