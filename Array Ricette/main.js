@@ -3,7 +3,8 @@ var Ingredients = ["Basilico", "Aglio", "pinoli", "parmigiano", "olio" , "sale"]
 var index = '';
 
     for(i = 0; i<= 5; i++){
-        console.log(Ingredients[i] + " " +  Ingredients[i].length);
+        var NumLettereIngredienti = Ingredients[i].length;
+       // document.write(Ingredients[i] + " " +  Ingredients[i].length );
+        console.log(Ingredients[i] + " " + NumLettereIngredienti );
     }
-
 
